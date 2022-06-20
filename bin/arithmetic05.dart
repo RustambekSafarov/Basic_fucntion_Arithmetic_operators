@@ -1,5 +1,6 @@
 int func(number){
     int x = (number%10)+(number~/10);
+    return x;
 }
 // Create a function called func.
 // Create a fucntion argument ‘number’
