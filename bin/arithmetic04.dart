@@ -7,5 +7,5 @@ int multiple(a,b){
 // Return the multiplication of a and b.
 
 void main() {
-    print(multiple(8,5))
+    print(multiple(8,5));
 }
