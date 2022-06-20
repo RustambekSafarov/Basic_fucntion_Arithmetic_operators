@@ -7,5 +7,5 @@ int divide(a,b){
 // Returns the floor division of a and b.
 
 void main() {
-    print(divide(9,2))
+    print(divide(9,2));
 }
