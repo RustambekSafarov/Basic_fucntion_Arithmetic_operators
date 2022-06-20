@@ -1,3 +1,7 @@
+int func(number){
+    int answer = number % 3;
+    return answer;
+}
 // Create a function called func.
 // Create a function argument called ‘number’ type of int.
 // Create a variable called ‘answer’.
@@ -5,4 +9,6 @@
 // ‘answer’.
 // return the answer.
 
-void main() {}
+void main() {
+    print(func(28));
+}
