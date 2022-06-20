@@ -1,3 +1,10 @@
+int func(number){
+    int x1 = number%10;
+    int x2 = (number%100)~/10;
+    int x3 = number~/100;
+    int answer = x1+x2+x3;
+    return answer;
+}
 // Create a function called func.
 // Create a function argument  called ‘number’ of type int 
 // the three-digit number will be given.
@@ -7,4 +14,6 @@
 // Create a variable called ‘answer’ and assign it the sum of the three digits.
 // return the sum of the digits.
 
-void main() {}
+void main() {
+    print(func(494));
+}
